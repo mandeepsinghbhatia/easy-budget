@@ -2,16 +2,17 @@
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-  IgnorableNamespaces="uap rescap">
+  IgnorableNamespaces="uap uap3 rescap">
 
   <Identity
-    Name="SciEngineer.Easy-Budget-Planner"
+    Name="SciEngineer.Easy-Budget-Sim"
     Publisher="CN=4DEBF528-4A2C-406C-8ED5-D23270EB4A9A"
     Version="1.1.0.0" />
 
   <Properties>
-    <DisplayName>Easy-Budget-Planner</DisplayName>
+    <DisplayName>Easy Budget Sim</DisplayName>
     <PublisherDisplayName>SciEngineer</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -26,7 +27,7 @@
 
     <Applications>
         <Application Id="App"
-                     StartPage="/easy-budget/">
+                     StartPage="https://mandeepsinghbhatia.github.io/easy-budget/">
 
             <uap:VisualElements
                     DisplayName="Easy Budget Sim"
@@ -38,9 +39,9 @@
                 <uap:SplashScreen Image="Assets\SplashScreen.png" />
             </uap:VisualElements>
 
-            <uap:ApplicationContentUriRules>
-                <uap:Rule Type="include" WindowsRuntimeAccess="all" Match="https://mandeepsinghbhatia.github.io/easy-budget/*" />
-            </uap:ApplicationContentUriRules>
+            <uap3:ApplicationContentUriRules>
+                <uap3:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/*" WindowsRuntimeAccess="all" />
+            </uap3:ApplicationContentUriRules>
 
         </Application>
     </Applications>
