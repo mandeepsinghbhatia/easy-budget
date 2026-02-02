@@ -39,9 +39,9 @@
                 <uap:SplashScreen Image="Assets\SplashScreen.png" />
             </uap:VisualElements>
 
-            <uap3:ApplicationContentUriRules>
-                <uap3:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/*" WindowsRuntimeAccess="all" />
-            </uap3:ApplicationContentUriRules>
+            <uap:ApplicationContentUriRules>
+                <uap:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/*" WindowsRuntimeAccess="all" />
+            </uap:ApplicationContentUriRules>
 
         </Application>
     </Applications>
