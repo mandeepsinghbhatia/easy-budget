@@ -39,7 +39,7 @@
             </uap:VisualElements>
 
             <uap:ApplicationContentUriRules>
-                <uap:Rule Type="include" WindowsRuntimeAccess="all" Match="https://mandeepsinghbhatia.github.io/easy-budget/" />
+                <uap:Rule Type="include" WindowsRuntimeAccess="all" Match="https://mandeepsinghbhatia.github.io/easy-budget/*" />
             </uap:ApplicationContentUriRules>
 
         </Application>
