@@ -40,7 +40,8 @@
 
             <uap:ApplicationContentUriRules>
                 <uap:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/easy-budget/" WindowsRuntimeAccess="none" />
-            </uap:ApplicationContentUriRules>
+				<uap:Rule Type="include" Match="https://cdn.jsdelivr.net/" WindowsRuntimeAccess="none" />
+		   </uap:ApplicationContentUriRules>
 
         </Application>
     </Applications>
