@@ -26,10 +26,10 @@
 
     <Applications>
         <Application Id="App"
-                     StartPage="https://mandeepsinghbhatia.github.io/easy-budget/">
+                     StartPage="/easy-budget/">
 
             <uap:VisualElements
-                    DisplayName="Easy Budget Planner"
+                    DisplayName="Easy Budget Sim"
                     Description="Easy budget creation"
                     BackgroundColor="#ffffff"
                     Square150x150Logo="Assets\Square150x150Logo.png"
