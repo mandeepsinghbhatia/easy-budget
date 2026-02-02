@@ -33,6 +33,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/easy-budget/icons/apple-icon-180x180.png">
 </head>
 <body>
+
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('/easy-budget/sw.js')
+  }
+</script>
+
   <pwa-update swpath="/easy-budget/sw.js"></pwa-update>
 
   <div id=q-app></div>
