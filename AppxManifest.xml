@@ -27,7 +27,7 @@
 
     <Applications>
         <Application Id="App"
-                     StartPage="https://mandeepsinghbhatia.github.io/easy-budget/">
+                     StartPage="https://mandeepsinghbhatia.github.io/easy-budget/index.html">
 
             <uap:VisualElements
                     DisplayName="Easy Budget Sim"
