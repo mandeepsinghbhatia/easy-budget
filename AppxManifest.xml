@@ -40,7 +40,7 @@
             </uap:VisualElements>
 
             <uap:ApplicationContentUriRules>
-                <uap:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/*" WindowsRuntimeAccess="all" />
+                <uap:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/*" WindowsRuntimeAccess="none" />
             </uap:ApplicationContentUriRules>
 
         </Application>
