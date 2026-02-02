@@ -2,8 +2,8 @@
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-  IgnorableNamespaces="uap rescap">
+  xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
+  IgnorableNamespaces="uap uap3">
 
   <Identity
     Name="SciEngineer.Easy-Budget-Sim"
@@ -39,7 +39,7 @@
             </uap:VisualElements>
 
             <uap:ApplicationContentUriRules>
-                <uap:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/easy-budget/" WindowsRuntimeAccess="all" />
+                <uap:Rule Type="include" Match="https://mandeepsinghbhatia.github.io/easy-budget/" WindowsRuntimeAccess="none" />
 				<uap:Rule Type="include" Match="https://cdn.jsdelivr.net/" WindowsRuntimeAccess="none" />
 		   </uap:ApplicationContentUriRules>
 
